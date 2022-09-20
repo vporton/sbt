@@ -1,0 +1,12 @@
+{
+  "name": "sbt",
+  "version": "0.0.1",
+  "description": "Soul-bound tokens using notaries",
+  "main": "index.js",
+  "author": "Victor Porton",
+  "license": "GPLv3",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "hardhat": "^2.11.1"
+  }
+}
