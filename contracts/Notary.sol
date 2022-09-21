@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
 
-/// @notice Account restoration contract ("notary") controlled by NFT.
+/// @notice Account restoration contract ("notary").
 /// @author Victor Porton
 contract Notary is Ownable {
     // It does not cause reentrancy vulnerability, because this function is called the last.
